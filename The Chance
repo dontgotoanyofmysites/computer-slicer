@@ -1,5 +1,5 @@
-<html>
-<script>if (Math.random(1) > 0.49)
+</html>
+</script>if (Math.random(1) > 0.49)
 alert("hello")
 else
 alert("no")
