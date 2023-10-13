@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Greeting Generator</title>
+</head>
+<body>
+    <h1 id="message">Random Greeting:</h1>
+    <button onclick="generateGreeting()">Generate</button>
+
+    <script>
+        function generateGreeting() {
+            // Generate a random number between 0 and 1 (inclusive)
+            var randomNumber = Math.random();
+
+            // Use the random number to decide the greeting
+            var greeting = randomNumber < 0.5 ? "hello" : "bye";
+
+            // Update the message displayed on the page
+            document.getElementById("message").textContent = "Random Greeting: " + greeting;
+        }
+    </script>
+</body>
+</html>
