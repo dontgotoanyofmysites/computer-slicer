@@ -1,7 +1,15 @@
-</html>
-</script> if (Math.random(1) > 0.5)
-alert("hello")
-else
-alert("no")
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Alert</title>
+</head>
+<body>
+    <script>
+        if (Math.random() > 0.5) {
+            alert("Hello");
+        } else {
+            alert("No");
+        }
+    </script>
+</body>
 </html>
