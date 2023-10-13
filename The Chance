@@ -5,11 +5,15 @@
 </head>
 <body>
     <script>
-        if (Math.random() > 0.5) {
-            alert("Hello");
-        } else {
-            alert("No");
+        function showAlert() {
+            if (Math.random() > 0.5) {
+                alert("Hello");
+            } else {
+                alert("No");
+            }
         }
+        
+        showAlert(); // Call the function to show the alert
     </script>
 </body>
 </html>
